@@ -1,9 +1,14 @@
 # CoWrite
 A web based collaborative editor built with CRDTs.
 
-# Collaborative Editor
+# Stack
 
-This project is a web-based collaborative editor built with React.js on the frontend, Golang on the backend, and deployed on Azure with containerization using Docker. Additionally, it integrates a monitoring tool like Prometheus for monitoring system metrics.
+This project is a web-based collaborative editor built with 
+- Frontend - React.js
+- Backend - Golang
+- Deployment - Azure cloud
+- Containerization - Docker
+- Monitoring - Prometheus
 
 ## Features
 
