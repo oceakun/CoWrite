@@ -13,7 +13,7 @@ This project is a web-based collaborative editor built with
 ## Features
 
 - **Private Rooms**: Participants can join through a link, similar to Google Docs, where access can be requested via email.
-- **Workspaces Handling Multiple Files**: Each user has a store of files they can work on.
+- **Workspaces Handling Multiple Files**: Each user has access to a personal store wherefrom, storage and retrieval of files will be possible.
 - **Highly Minimalistic and Modern UI**: The user interface is designed to be simple and modern for an optimal user experience.
 
 ## Architectural diagram
@@ -48,13 +48,19 @@ The backend of the collaborative editor is built using Golang, a statically type
 
 3. **Persistence**: The backend is responsible for persisting document data to a database, ensuring that changes are preserved even if the server restarts or crashes.
 
-# Project Timeline
+# Project Timeline(15 May to 15 July ~ 56 days)
 
 ### Week 1: Planning and Setup
 - Project requirements, following features.
 - Set up development environments for frontend and backend.
 
-### Week 2-3: Frontend Development
+### Week 2-3: Backend Development
+- Set up backend server using Golang.
+- Define WebSocket endpoints for communication.
+- Develop conflict resolution logic using CRDTs.
+- Integrate persistence layer for storing document data.
+
+### Week 4-5: Frontend Development
 - Design a minimal UI on Figma.
 - Develop following components with React.js:
   - file system
@@ -63,14 +69,8 @@ The backend of the collaborative editor is built using Golang, a statically type
 - Implement markdown editing functionality using `react-md-editor`.
 - Set up WebSocket communication for real-time communication with backend.
 
-### Week 4-5: Backend Development
-- Set up backend server using Golang.
-- Define WebSocket endpoints for communication.
-- Develop conflict resolution logic using CRDTs.
-- Integrate persistence layer for storing document data.
-
 ### Week 6: Deployment
-- Deploy the application to Azure using Docker containers.
+- Deploy the application to cloud using Docker containers.
 - Configure CI/CD pipelines for automated testing and deployment.
 
 ### Week 7: Testing
