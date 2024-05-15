@@ -44,7 +44,7 @@ The backend of the collaborative editor is built using Golang, a statically type
 
 1. **WebSocket Server**: The backend includes a WebSocket server that receives edit requests from the frontend and broadcasts them to all connected clients in real-time.
 
-2. **Conflict Resolution with CRDTs**: Upon receiving edit requests, the backend utilizes a system built with Conflict-Free Data Types (CRDTs) to resolve conflicts. CRDTs ensure that all clients reach a convergent state without requiring centralized coordination or locking mechanisms.
+2. **Conflict Resolution with CRDTs**: Upon receiving edit requests, the backend utilizes a system built with Conflict-Free Replicated Data Types (CRDTs) to resolve conflicts. CRDTs ensure that all clients reach a convergent state without requiring centralized coordination or locking mechanisms.
 
 3. **Persistence**: The backend is responsible for persisting document data to a database, ensuring that changes are preserved even if the server restarts or crashes.
 
