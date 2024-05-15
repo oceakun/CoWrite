@@ -6,7 +6,7 @@ A web based collaborative editor built with CRDTs.
 This project is a web-based collaborative editor built with 
 - Frontend - React.js
 - Backend - Golang
-- Deployment - Azure cloud
+- Deployment - Cloud platform
 - Containerization - Docker
 - Monitoring - Prometheus
 
