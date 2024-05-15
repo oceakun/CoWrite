@@ -50,11 +50,9 @@ The backend of the collaborative editor is built using Golang, a statically type
 
 # Project Timeline(15 May to 15 July ~ 56 days)
 
-### Week 1: Planning and Setup
+### Week 1-3: Initial setup and Backend Development
 - Project requirements, following features.
 - Set up development environments for frontend and backend.
-
-### Week 2-3: Backend Development
 - Set up backend server using Golang.
 - Define WebSocket endpoints for communication.
 - Develop conflict resolution logic using CRDTs.
